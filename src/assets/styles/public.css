@@ -1,0 +1,70 @@
+html,body,#app{height: 100%}
+.btn_wrap{ text-align: left;margin-bottom: 10px; }
+.clearfix {
+    zoom:1
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden
+}
+.red{color: #ff0000}
+
+
+.fl{float: left;}
+.fr{float: right}
+.bg_w{background-color: #fff!important}
+.ta-l{text-align: left!important}
+.w-80{width: 80%;}
+.mb-10{margin-bottom: 10px;}
+.ml-10{margin-left: 10px}
+.mt-10{margin-top: 10px!important;}
+
+form{
+	padding:20px;
+	width: 80%;
+	margin:0 auto;
+}
+form>div{
+	text-align: left!important;
+}
+ul,ol,li {
+    list-style: none
+}
+
+.el-tooltip__popper {
+	max-width: 200px;
+	line-height: 1.5;
+  word-break: break-all;
+}
+.ql-editor{
+    word-break: break-all;
+}
+
+.resultWrap h1{
+    text-align: left;
+    font-size: 16px;
+}
+.toggleBtn{
+    text-align: left
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .2s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.border-b{
+    border-bottom: 1px #eee solid;
+}
+el-input--suffix .el-input__inner {
+     padding-right: 15px!important; 
+}
+.el-select .el-input__inner {
+     padding-right: 15px!important; 
+}
